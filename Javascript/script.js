@@ -1,6 +1,66 @@
 
 let n1, n2, operacio;
 
+function num1(){
+    n1 = parseFloat(document.value = "1")
+    document.getElementById("pantalla").value = document.getElementById("pantalla").value+"1"
+    document.getElementById("pantalla").focus()
+}
+
+function num2(){
+    n1 = parseFloat(document.value = "2")
+    document.getElementById("pantalla").value = document.getElementById("pantalla").value+"2"
+    document.getElementById("pantalla").focus()
+}
+
+function num3(){
+    n1 = parseFloat(document.value = "3")
+    document.getElementById("pantalla").value = document.getElementById("pantalla").value+"3"
+    document.getElementById("pantalla").focus()
+}
+
+function num4(){
+    n1 = parseFloat(document.value = "4")
+    document.getElementById("pantalla").value = document.getElementById("pantalla").value+"4"
+    document.getElementById("pantalla").focus()
+}
+
+function num5(){
+    n1 = parseFloat(document.value = "5")
+    document.getElementById("pantalla").value = document.getElementById("pantalla").value+"5"
+    document.getElementById("pantalla").focus()
+}
+
+function num6(){
+    n1 = parseFloat(document.value = "6")
+    document.getElementById("pantalla").value = document.getElementById("pantalla").value+"6"
+    document.getElementById("pantalla").focus()
+}
+
+function num7(){
+    n1 = parseFloat(document.value = "7")
+    document.getElementById("pantalla").value = document.getElementById("pantalla").value+"7"
+    document.getElementById("pantalla").focus()
+}
+
+function num8(){
+    n1 = parseFloat(document.value = "8")
+    document.getElementById("pantalla").value = document.getElementById("pantalla").value+"8"
+    document.getElementById("pantalla").focus()
+}
+
+function num9(){
+    n1 = parseFloat(document.value = "9")
+    document.getElementById("pantalla").value = document.getElementById("pantalla").value+"9"
+    document.getElementById("pantalla").focus()
+}
+
+function num0(){
+    n1 = parseFloat(document.value = "0")
+    document.getElementById("pantalla").value = document.getElementById("pantalla").value+"0"
+    document.getElementById("pantalla").focus()
+}
+
 function suma(){
     n1 = parseFloat(document.getElementById("pantalla").value)
     operacio = "+"
@@ -86,4 +146,10 @@ function calcula(){
 
     document.getElementById("pantalla").focus()
 
+}
+
+function restart(){
+    n1 = parseFloat(document.value = "0")
+    document.getElementById("pantalla").value = ""
+    document.getElementById("pantalla").focus()
 }
